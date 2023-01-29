@@ -6,7 +6,7 @@ import math
 
 
 
-df = pd.read_csv("https://github.com/MDeekshithaReddy/AIS-Fishing-Effort/blob/main/Shipping%20Data.csv")
+df = pd.read_csv("https://github.com/MDeekshithaReddy/AIS-Fishing-Effort/blob/main/Shipping%20Data.csv",error_bad_lines=False)
 
 rangeslider_marks = {-90: '90 S', -80 : '80 S', -70 : '70 S', -60 : '60 S', -50 : '50 S', -40 : '40 S', -30 : '30 S', -20 : '20 S', -10 : '10 S', 0 : '0', 10: '10 N', 20 : '20 N', 30 : '30 N', 40 : '40 N', 50 : '50 N', 60 : '60 N', 70 : '70 N', 80 : '80 N', 90 : '90 N'}
 
