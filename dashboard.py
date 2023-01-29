@@ -25,8 +25,6 @@ app.layout = html.Div(
                   value=[0,10],
                    tooltip={"placement": "bottom", "always_visible": True},
                    updatemode='drag',
-                  # persistence=True,
-                   # persistence_type='session', # 'memory' or 'local'
                    id="my-rangeslider"
         ),
 
